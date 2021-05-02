@@ -1,0 +1,19 @@
+dummy_vip:
+  incdirs: [
+    include,
+  ]
+  targets: [
+    rtl,
+  ]
+  files: [
+   rtl/dummy_submodule.sv,
+   rtl/dummy_top.sv,
+  ]
+  vlog_opts : [
+    -L pulp_soc_lib,
+    -L dummy_vip_lib,
+    -L common_cells_lib
+  ]
+  flags : [
+    skip_synthesis,
+  ]
