@@ -10,9 +10,7 @@ dummy_vip:
    rtl/dummy_top.sv,
   ]
   vlog_opts : [
-    -L pulp_soc_lib,
-    -L dummy_vip_lib,
-    -L common_cells_lib
+    -L common_cells_lib,
   ]
   flags : [
     skip_synthesis,
