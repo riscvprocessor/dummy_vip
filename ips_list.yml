@@ -1,4 +1,0 @@
-dummy_vip:
-   commit: master
-   server: https://github.com
-   group : riscvprocessor
